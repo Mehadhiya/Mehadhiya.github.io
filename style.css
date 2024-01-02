@@ -1,0 +1,430 @@
+/* Importing Google font - Open Sans */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  background: url('young-adult-businessman-modern-office-typing-generated-by-ai.jpg') no-repeat fixed center;
+  background-size: cover;
+}
+
+/* Navbar Section */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #010005;
+  padding: 5px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar .logo img {
+  width: 200px;
+  height: auto;
+  
+}
+
+.navbar .links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 15px;
+}
+
+.navbar .links a {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  transition: 0.3s ease-in;
+  letter-spacing: 0.5px;
+  
+}
+
+.navbar .links li a:hover {
+  color: #03C988;
+  text-decoration:  underline;
+  cursor: pointer;
+  
+}
+
+/* Main Section */
+
+.main {
+  margin: 0 auto;
+  padding: 50px;
+
+}
+
+.main .content {
+  display: flex;
+  padding-top: 11%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.content .heading {
+  font-size: 4em;
+  color: #fff;
+  text-shadow: 1px 1px 2px #03C988;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.content p {
+  font-size: 1.2rem;
+  margin: 1.2rem 18%;
+  color: #fff;
+  text-align: justify;
+  font-weight: 600;
+}
+.heading .d1{
+  color: #03C988;
+}
+ .d2{
+  color: #03C988;
+}
+.main .buttons {
+  margin-top: 3rem ;
+
+}
+.main .buttons a {
+  display: inline-block;
+  padding: 15px 30px;
+  color: #000000;
+  font-size: 15px;
+  font-weight:600;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s ease-in-out;
+  letter-spacing: 4px;
+  background-color: #03C988;
+}
+
+.buttons a:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Hamburger menu styles */
+
+#menu-toggle {
+  display: none;
+}
+
+#hamburger-btn {
+  font-size: 1.8rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+/* About us section */
+
+#aboutus {
+  padding: 20px 40px;
+  margin: 5rem;
+  box-shadow: 1px 1px 5px #03C988;
+  border-radius: 5px;
+  background-color: #000000;
+}
+#aboutus .content {
+  display: flex;
+  flex-direction: column;
+}
+#aboutus .heading1{
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.content .heading2{
+  color: #03C988;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.content  p{
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+/* user manual section*/
+
+#usermanual {
+  padding: 20px 15px;
+  margin: 20px 5%;
+  
+}
+#usermanual .content{
+  margin-top: 2rem;
+  display: grid;
+  gap : 20px;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  margin-bottom: 3rem;
+  
+}
+#usermanual .heading3{
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 3.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  
+}
+.content .container1{
+  display: grid;
+  place-items: center; 
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #03C988;
+  padding: 30px 15px;
+  background-color: #000000;
+}
+
+.container1 p{
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 ;
+  color: #fff;
+}
+.content .container1 img{
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+  
+}
+
+/* Domain Links*/
+
+#domainLinks{
+  margin-top: 30px;
+}
+
+#domainLinks .content1{
+  margin: 3rem 0;
+  padding: 0 5%;
+  display: grid;
+  gap : 30px;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+
+}
+.content1 .domainImages{
+
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+  padding: 25px 15px ;
+  transition: 0.3s ease-in;
+  background-color: #000000;
+  box-shadow: 1px 1px 10px #03C988;
+
+}
+#domainLinks .heading4{
+  text-align: center;
+  margin-top: 3rem;
+  color: #fff;
+  font-size: 1.5rem;
+  
+}
+.domainImages .heading5{
+  color: #03C988;
+  font-size: 1.2rem;
+}
+.domainImages p{
+  color: #fff;
+  text-align: justify;
+ 
+}
+.domainImages .link3{
+  width: 100%;
+  color: #fff;
+  background-color: #03C988;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px ;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: 0.3s ease-in ;
+}
+.domainImages .link3:hover
+{
+ color: #000000;
+ cursor: pointer;
+}
+.content1 .domainImages:hover{
+  transform: translateY(5px);
+}
+
+/*footer section*/
+
+.footerSection{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+  gap: 10px;
+  margin:4rem 4rem 2rem 4rem;
+  padding: 2% 4%;
+  box-shadow: 1px 1px 5px #03C988;
+  border-radius: 5px;
+  background-color: #000000;
+  
+}
+/* footer1 */
+.footer1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.footer1 img{
+  width: 200px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  
+}
+.footer-links a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 5px;
+  transition: .3s ease-in;
+}
+.footer-links a:hover{
+  color: #03C988;
+  text-decoration:  underline;
+  cursor: pointer;
+}
+.footer-company-name{
+  color: #fff;
+  color: #03C988;
+  padding: 10px;
+}
+/*  footer2 */
+.footer2{
+  flex-wrap: wrap;
+  color: #fff;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.footer2 div{
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.footer2 div i{
+  color: black;
+  background-color: #03C988;
+  border-radius: 50%;
+  padding: 5px;
+}
+.footer2 div a{
+  color: #fff;
+  text-decoration: none;
+}
+/* footer3 */
+.footer3{
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  flex-wrap:wrap ;
+}
+.footer-company-about{
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 13px;
+  text-align: justify;
+}
+.footer-icons{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer-icons a{
+  text-decoration: none;
+}
+.footer-icons i{
+  margin-top: 10px;
+  color: #000000;
+  background-color: #03C988;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+
+
+
+/* responsive hamburger   */
+
+@media screen and (max-width: 1023px) {
+  .navbar .logo a {
+    font-size: 1.5rem;
+  }
+
+  .links {
+    position: fixed;
+    left: -100%;
+    top: 75px;
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    
+    background: #000000;
+    flex-direction: column;
+    transition: 0.3s ease;
+  }
+  
+
+  .navbar #menu-toggle:checked~.links {
+    left: 0;
+  }
+
+  .navbar #hamburger-btn {
+    display: block;
+  }
+
+  .header .buttons {
+    display: none;
+  }
+
+  .main .content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .main img {
+    display: none;
+  }
+}
+
